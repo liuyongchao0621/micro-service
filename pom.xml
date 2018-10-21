@@ -13,6 +13,7 @@
         <module>micro-util</module>
         <module>micro-web</module>
         <module>micro-server</module>
+        <module>micro-core</module>
     </modules>
 
     <properties>
@@ -81,7 +82,11 @@
                 <artifactId>micro-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.micro.service</groupId>
+                <artifactId>micro-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
 
 
             <!-- spring 等三方引入-->
